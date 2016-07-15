@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   angular
-    .module('raynerweb.cpfcnpj',[])
+    .module('cpf-cnpj',[])
     .directive('cpfCnpj', cpfCnpj);
   function cpfCnpj(){
     return {
